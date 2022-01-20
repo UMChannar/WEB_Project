@@ -1,0 +1,26 @@
+.carousel-item {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+.navbar-brand {
+    padding-left: 4rem;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono:wght@500&display=swap");
+.btn-color {
+    background-color: #0e1c36;
+    color: #fff;
+}
+body {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1033568699/thumb/1.jpg?ip=x480);
+}
+.profile-image-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.cardbody-color {
+    background-color: #ebf2fa;
+}
+a {
+    text-decoration: none;
+}
+.navbar-brand {
+    padding-left: 4rem;
+}
+.btt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btt a {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+.data h3 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+.data p {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
