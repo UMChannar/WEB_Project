@@ -27,8 +27,6 @@ class RegisterController extends Controller
         ]);
         auth()->attempt($request->only('email', 'password'));
 
-        echo ("Succes");
-
-        // return redirect()->route('order');
+         return redirect()->route('order');
     }
 }

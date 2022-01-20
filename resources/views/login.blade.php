@@ -37,7 +37,7 @@
                             href="{{ route('register') }}">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link border rounded" style="margin-right: .5rem;" href="#">Admin</a>
+                        <a class="nav-link border rounded" style="margin-right: .5rem;" href="{{ route('admin') }}">Admin</a>
                     </li>
                 </ul>
             </div>

@@ -21,7 +21,7 @@ class LoginController extends Controller
         if (!auth()->attempt($request->only('email', 'password'))) {
             return back()->with('status', 'Invalid Login details');
         }
-        echo("Success");
-        // return redirect()->route('order');
+
+        return redirect()->route('order');
     }
 }
